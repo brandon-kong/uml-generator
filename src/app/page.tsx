@@ -9,7 +9,7 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-center p-24">
             <div
                 className={
-                    "absolute top-0 left-0 h-screen w-full -z-10 opacity-50"
+                    "absolute top-0 left-0 h-screen w-full -z-10 opacity-60"
                 }
             >
                 <Image
@@ -20,11 +20,12 @@ export default function Home() {
                 />
             </div>
 
-            <div className="flex items-start justify-center w-full">
-                <div className={"flex flex-col gap-2 max-w-sm w-full"}>
+            <div className="flex items-start justify-center w-full gap-8">
+                <div className={"flex flex-col gap-2 max-w-md w-full"}>
                     <LandingH1>UML Editor</LandingH1>
                     <P className={"text-muted-foreground"}>
-                        Create and share UML diagrams with ease.
+                        Create and share UML diagrams with ease. All you need is
+                        your code. No sign up required. Isn&apos;t that cool?
                     </P>
 
                     <div className={"flex gap-4 mt-6"}>
@@ -36,11 +37,12 @@ export default function Home() {
                 <div className={"max-w-lg space-y-2 w-full relative"}>
                     <div
                         className={
-                            "w-full flex gap-4 bg-neutral-100 text-black p-2 justify-center rounded-lg"
+                            "w-full flex gap-4 bg-neutral-300 text-neutral-950 p-2 justify-center rounded-lg"
                         }
                     >
                         <P>
-                            Paste your programming code and get a UML diagram.
+                            Paste your class code here to generate a UML
+                            diagram.
                         </P>
                     </div>
 

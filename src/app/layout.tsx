@@ -10,6 +10,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import LoadingScreen from "@/components/screens/loading";
+import Footer from "@/components/layout/footer";
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
                     storageKey="theme"
                 >
                     {children}
+                    <Footer />
                 </ThemeProvider>
             </body>
         </html>

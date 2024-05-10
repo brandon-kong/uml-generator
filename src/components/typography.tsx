@@ -13,7 +13,7 @@ export function LandingH1({ children, className, ...props }: TypographyHProps) {
         <h1
             className={twMerge(
                 "text-6xl font-semibold font-mono",
-                "tracking-tighter leading-tight",
+                "tracking-tighter ",
                 className
             )}
             {...props}
