@@ -12,6 +12,8 @@ export default function Home() {
                     "absolute top-0 left-0 h-screen w-full -z-10 opacity-60"
                 }
             >
+               
+               
                 <Image
                     src={"/backgrounds/gradient.png"}
                     fill
@@ -37,7 +39,7 @@ export default function Home() {
                 <div className={"max-w-lg space-y-2 w-full relative"}>
                     <div
                         className={
-                            "w-full flex gap-4 bg-neutral-300 text-neutral-950 p-2 justify-center rounded-lg"
+                            "w-full flex gap-4 bg-neutral-100 text-neutral-950 p-2 justify-center rounded-lg"
                         }
                     >
                         <P>

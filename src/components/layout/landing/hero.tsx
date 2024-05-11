@@ -15,6 +15,7 @@ export const Editor = () => {
         onChange: (value) => {
             console.log("onChange:", value);
         },
+        placeholder: "Enter class definition here...",
         theme: "dark",
         height: "400px"
     });
